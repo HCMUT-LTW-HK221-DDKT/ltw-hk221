@@ -1,15 +1,14 @@
-## Git - Tạo nhánh mới
+## Git - Pull code
 
-Mỗi lần làm, mn làm thao tác sau:
+Trước khi develop và sau khi develop và push lên, mọi người cần phải pull code về nha
 
 ```shell
-git checkout main
 
 git fetch
 git pull
 
-git checkout -b dev/<tên tính năng>
 ```
+## Trước mỗi bước push bắt buộc pull code về rồi mới push
 
 ## Git - Commit code
 
@@ -18,6 +17,6 @@ Việc commit bao gồm 2 thao tác sau:
 ```shell
 git add .
 git commit -m "<Tin nhắn của các bạn>"
+git push
 ```
-Mọi người nhớ push nhánh của mình lên 
 
