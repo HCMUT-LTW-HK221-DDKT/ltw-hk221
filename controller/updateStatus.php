@@ -14,7 +14,7 @@
 	}
     $row = mysqli_fetch_assoc($result);
     if ($row['Status'] == "New Order") {
-	    $query = "UPDATE orders SET Status = 'Preparing' WHERE id = '$id'";
+	    $query = "UPDATE orders SET Status = 'Prepared' WHERE id = '$id'";
 	    $result = mysqli_query($conn, $query);
 	    if (!$result) {
 		    echo json_encode(array("statusCode" => 400, "info" => "Update order status failed!"));
@@ -22,7 +22,7 @@
 		    echo json_encode(array("statusCode" => 200, "info" => "Update order status successfully!"));
 	    }
     }
-    else if ($row['Status'] == "Preparing"){
+    else if ($row['Status'] == "Prepared"){
         $query = "UPDATE orders SET Status = 'Done' WHERE id = '$id'";
 	    $result = mysqli_query($conn, $query);
 	    if (!$result) {
