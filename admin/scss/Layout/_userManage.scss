@@ -1,0 +1,21 @@
+.userManage {
+    max-height: calc(100vh - 50px);
+    .search_form {
+        padding: 10px 20px;
+        input {
+            background: #f0f0f0;
+            border-radius: 0 !important;
+        }
+        button {
+            width: 150px;
+            border-radius: 0 !important;
+        }
+        .form-select {
+            width: 100px;
+        }
+    }
+
+    #listUser {
+        padding: 10px 20px;
+    }
+}

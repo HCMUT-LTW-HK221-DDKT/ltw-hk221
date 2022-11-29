@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  padding: 0 !important;
+  overflow-x: hidden;
+  font-family: 'Nunito Sans', sans-serif;
+  @include styleText($fs-0, $fw-normal, $color-black-0);
+}
+
+// @media only screen and (min-width: 576px) {
+// .container {
+//     max-width: 540px;
+// }
+// }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    // position: relative;
+    max-width: 738px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    // position: relative;
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+
+

@@ -1,0 +1,143 @@
+<?php
+session_start();
+if (!isset($_SESSION['adminLog'])) {
+	header('location: login.php');
+}
+?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Contact info management</title>
+
+	<!-- import bootstrap  -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+
+	<!-- font awesome  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" />
+	<!-- Our Custom CSS -->
+	<link rel="stylesheet" href="css/index.css">
+
+
+</head>
+
+<body>
+
+	<!-- copy hết div lớn này, viết content trong div.content, sau nav -->
+	<div class="wrapper">
+		<!-- Sidebar -->
+		<?php
+		require_once "./component/sidebar.php";
+		?>
+		<div id="content" style="width: 100%">
+			<nav class="navbar navbar-light" style="background-color: #e3f2fd;justify-content: flex-end; height: 66px; padding: 0 20px;">
+				<button class="btn btn-primary adminLogout" style="padding: 6px;">Đăng xuất</button>
+			</nav>
+
+			<div class="contactInfo">
+				<div class="contact contactType">
+					<div class="header">
+						<h3>Thông tin liên hệ</h3>
+					</div>
+					<div class="contactDetail">
+					</div>
+				</div>
+				<hr>
+				<div class="showroomContact contactType">
+					<div class="header">
+						<h3>Địa chỉ cửa hàng</h3>
+						<button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addShowroomModal">Thêm</button>
+					</div>
+					<div class="listShowroom">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="toast" id="notification">
+		<div class="toast-header">
+			<strong class="mr-auto"><i class="fa fa-bell"></i>Thông báo</strong>
+			<strong class="me-auto"></strong>
+			<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+		</div>
+		<div class="toast-body">
+			<div class="result"></div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="addShowroomModal" tabindex="-1" aria-labelledby="addShowroomModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="addShowroomModalLabel">Thêm cửa hàng</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="d-flex">
+						<input type="text" id="addShowroomInput" class="form-input" placeholder="Nhập địa chỉ" name="addShowroomInput">
+						<button class="btn btn-success" id="addShowroomBtn">Thêm</button>
+						<!-- <a class="btn btn-success" href="products.php?search=ưu">Tìm</a> -->
+					</div>
+					<div class="inputError text-danger">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="updateShowroomModal" tabindex="-1" aria-labelledby="updateShowroomModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="updateShowroomModalLabel">Cập nhật cửa hàng</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="d-flex">
+						<input type="text" id="updateShowroomInput" class="form-input" placeholder="Nhập địa chỉ mới" name="updateShowroomInput">
+						<button class="btn btn-success" id="updateShowroomBtn">Cập nhật</button>
+						<!-- <a class="btn btn-success" href="products.php?search=ưu">Tìm</a> -->
+					</div>
+					<div class="updateInputError text-danger">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery CDN - Slim version (=without AJAX) -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<!-- bootstrap 5.0.1 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+	<script src="./js/contactInfo.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.adminLogout').click(function() {
+				$.ajax({
+					type: "POST",
+					url: "../controller/adminAuth.php",
+					data: {
+						requestLogout: true
+					},
+					success: function(data) {
+						data = JSON.parse(data);
+						// console.log(data)
+						if (data.statusCode == 200) {
+							window.location.replace('login.php');
+						}
+					},
+				});
+			});
+		});
+	</script>
+</body>
+
+</html>
