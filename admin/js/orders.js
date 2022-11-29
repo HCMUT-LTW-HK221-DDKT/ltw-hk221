@@ -99,6 +99,7 @@ $(document).on("click", "#update", function() {
         },
 		beforeSend: function() {
 			$("#r2").html("Fetching data from database...");
+            setTimeout(function () { window.location.reload(); }, 100);
 		},
 		success: function(data) {
 			try {
@@ -109,7 +110,6 @@ $(document).on("click", "#update", function() {
 				}
 			} catch {
 				$("#r2").html(data);
-                setTimeout(function () { window.location.reload(); }, 100);
 			}	
 		},
 		error: function() {
