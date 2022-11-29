@@ -19,3 +19,5 @@ Việc commit bao gồm 2 thao tác sau:
 git add .
 git commit -m "<Tin nhắn của các bạn>"
 ```
+Mọi người nhớ push nhánh của mình lên 
+
