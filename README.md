@@ -19,4 +19,4 @@ git add .
 git commit -m "<Tin nhắn của các bạn>"
 git push
 ```
-quocduy123
+## KHÔNG CODE TRÊN CÙNG 1 FILE, CÁI NÀY GÂY XuNG ĐỘT KHI MERGE
