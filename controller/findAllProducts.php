@@ -128,7 +128,7 @@ if (!$result || !$result2) {
 					<td>
 						<button class="btn btn-info" id="update" data-bs-toggle="modal" data-bs-target="#updateProduct" data-id="<?php echo $row['id']; ?>" data-name="<?php echo $row['name'] ;?>" data-description="<?php echo $row['description']; ?>" data-price="<?php echo $row['price']; ?>" data-image="../uploads/<?php echo $row['imgUrl']; ?>">
 						Update</button>
-						<button class="btn btn-warning" id="delete" >Delete</button>
+						<button class="delete btn btn-warning">Delete</button>
 					</td>
 				</tr>
 

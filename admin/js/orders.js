@@ -125,3 +125,31 @@ $(document).on("click", "#update", function() {
 		}
 	});
 });
+$(document).on("click", "#detail", function() {
+    var id = $(this).parents("tr").attr("id");
+    $.ajax({
+		url: "../controller/orderDetail.php",
+		type: "GET",
+		data: {
+            id: id
+        },
+		beforeSend: function() {
+			$("#newtb").html("Fetching data from database...");
+		},
+		success: function(data) {
+			try {
+				data = JSON.parse(data);
+
+				if (data.statusCode == 400) {
+					$("#newtb").html("Can't fetch data from database!");
+				}
+			} catch {
+				$("#newtb").html(data);
+			}	
+		},
+		error: function() {
+			$("#newtb").html("Something is wrong!");
+		}
+	});
+});
+

@@ -8,9 +8,6 @@ $rowsPerPage = 12;
 $pageNum = 1;
 
 // if $_GET['page'] defined, use it as page number
-if (isset($_GET['page'])) {
-	$pageNum = $_GET['page'];
-}
 
 // counting the offset
 $offset = ($pageNum - 1) * $rowsPerPage;
@@ -121,7 +118,7 @@ if (!$result || !$result2) {
 					<td class="price"><?php echo $row['total_price']; ?></td>
                     <td><?php echo $row['username']; ?></td>
 					<td>
-                        <a href="">Detail</a>
+						<button class="btn btn-primary" id = "detail" >Detail</button>
 					</td>
 					<td><?php echo $row['Status']; ?></td>
                     <td><button class="btn btn-success" id="update">Update</button>
@@ -132,7 +129,7 @@ if (!$result || !$result2) {
 
 		</tbody>
 	</table>
-
+	<div id="newtb"></div>
 	<nav class="my-3">
 		<ul class="pagination justify-content-center">
 			<?php
@@ -144,7 +141,6 @@ if (!$result || !$result2) {
 
 <?php
 }
-
 //close the connection
 mysqli_close($conn);
 ?>
