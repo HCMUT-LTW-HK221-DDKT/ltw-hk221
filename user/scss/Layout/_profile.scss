@@ -1,0 +1,168 @@
+:root {
+  --primary-blue: #047d81;
+  --secondary-blue: #024143;
+  --dark-secondary-blue: #022120;
+  --secondary-black: #3a4042;
+  --white-card: #dfdfdf;
+}
+
+* {
+  color: var(--secondary-black);
+}
+
+body {
+  position: relative;
+}
+
+.toast {
+  position: absolute;
+  top: 85vh;
+  right: 5px;
+  .toast-header {
+    font-size: 15px;
+    color: green;
+  }
+  .toast-body {
+    font-size: 20px;
+  }
+}
+
+.head-background,
+.overlay-background,
+.firstsection {
+  height: 82px;
+}
+
+.emp-profile {
+  padding: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 0.5rem;
+  background: #f3f2ee;
+}
+
+.profile-img {
+  text-align: left;
+}
+
+.profile-img img {
+  width: 70%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.profile-head h5 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-head h6 {
+  color: #0062cc;
+}
+
+.profile-edit-btn {
+  border: none;
+  border-radius: 1.5rem;
+  width: 70%;
+  padding: 2%;
+  font-weight: 600;
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.proile-rating {
+  font-size: 12px;
+  color: #818182;
+  margin-top: 5%;
+}
+
+.proile-rating span {
+  color: #495057;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.profile-head .nav-tabs {
+  margin-bottom: 5%;
+}
+
+.profile-head .nav-tabs .nav-link {
+  font-weight: 600;
+  border: none;
+}
+
+.profile-head .nav-tabs .nav-link.active {
+  border: none;
+  border-bottom: 2px solid var(--primary-blue);
+  background: #f3f2ee;
+}
+
+.profile-work {
+  margin: 0 auto;
+  padding-left: 14%;
+}
+
+.profile-work p {
+  font-size: 12px;
+  color: #818182;
+  font-weight: 600;
+  margin-top: 10%;
+}
+
+.profile-work a {
+  text-decoration: none;
+  color: #495057;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.profile-work ul {
+  list-style: none;
+}
+
+.profile-tab label {
+  color: grey;
+  font-weight: 600;
+}
+
+.profile-tab p {
+  font-weight: 600;
+  color: var(--primary-blue);
+}
+
+.editable {
+  border: 1px solid var(--dark-secondary-blue);
+  padding: 5px 16px;
+  border-radius: 5px;
+}
+
+input[type="text"]:disabled {
+  border: none;
+  padding: 5px 16px;
+  border-radius: 5px;
+  background: none;
+}
+
+.blue-button {
+  /* margin-top: 20px; */
+  padding: 10px 25px !important;
+  border-radius: 5px !important;
+  color: white !important;
+  transition: all 0.3s ease;
+  background-color: var(--secondary-blue) !important;
+  border: none;
+}
+
+.blue-button:hover {
+  background-color: var(--primary-blue) !important;
+  border-color: var(--primary-blue) !important;
+  outline: none;
+  color: black !important;
+}
+
+.blue-button:disabled {
+  opacity: 0.5;
+  transition: none;
+  pointer-events: none;
+}
