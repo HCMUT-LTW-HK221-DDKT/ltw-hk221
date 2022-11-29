@@ -88,10 +88,9 @@ $(document).ready(function() {
 			});
 		}
 	});
-});
-$(document).on("click", "#update", function() {
-    var id = $(this).parents("tr").attr("id");
-    $.ajax({
+	$(document).on("click", "#update", function() {
+    	var id = $(this).parents("tr").attr("id");
+    	$.ajax({
 		url: "../controller/updateStatus.php",
 		type: "POST",
 		data: {
@@ -123,33 +122,84 @@ $(document).on("click", "#update", function() {
 				}));
 			});
 		}
+		});
 	});
-});
-$(document).on("click", "#detail", function() {
-    var id = $(this).parents("tr").attr("id");
-    $.ajax({
-		url: "../controller/orderDetail.php",
-		type: "GET",
-		data: {
-            id: id
-        },
-		beforeSend: function() {
-			$("#newtb").html("Fetching data from database...");
-		},
-		success: function(data) {
-			try {
-				data = JSON.parse(data);
+	$(document).on("click", "#detail", function() {
+    	var id = $(this).parents("tr").attr("id");
+    	$.ajax({
+			url: "../controller/orderDetail.php",
+			type: "GET",
+			data: {
+            	id: id
+        	},
+			beforeSend: function() {
+				$("#newtb").html("Fetching data from database...");
+			},
+			success: function(data) {
+				try {
+					data = JSON.parse(data);
 
-				if (data.statusCode == 400) {
-					$("#newtb").html("Can't fetch data from database!");
-				}
-			} catch {
-				$("#newtb").html(data);
-			}	
-		},
-		error: function() {
-			$("#newtb").html("Something is wrong!");
+					if (data.statusCode == 400) {
+						$("#newtb").html("Can't fetch data from database!");
+					}
+				} catch {
+					$("#newtb").html(data);
+				}	
+			},
+			error: function() {
+				$("#newtb").html("Something is wrong!");
+			}
+		});
+	});
+	$(document).on("click", ".page-link", function () {
+		var page = $(this).data("page");
+		if (page === 0) {
+			return;
 		}
+
+		let search = window.location.search;
+		search = decodeURI(search);
+		if (search == "") {
+			dataSearch = {
+				page: page
+			};
+		}
+		else {
+			let splitSearch = search.split('=');
+			let keyword = splitSearch[1];
+			dataSearch = {
+				page: page,
+				keyword: keyword,
+			};
+		}
+		$.ajax({
+			url: "../controller/findOrder.php",
+			type: "GET",
+			data: dataSearch,
+			beforeSend: function() {
+				$("#r2").html("Fetching data from database...");
+			},
+			success: function(data) {
+				try {
+					data = JSON.parse(data);
+					if (data.statusCode == 400) {
+						$("#r2").html("Can't fetch data from database!");
+					}
+				} catch {
+					$("#r2").html(data);
+				}	
+			},
+			error: function() {
+				$("#r2").html("Something is wrong!");
+			},
+			complete: function() {
+				$(".price").each(function () {
+					$(this).text(parseInt($(this).text()).toLocaleString("vi", {
+						style: "currency",
+						currency: "VND"
+					}));
+				});
+			}
+		});
 	});
 });
-

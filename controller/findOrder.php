@@ -2,13 +2,15 @@
 require_once "./database.php";
 
 // how many rows to show per page
-$rowsPerPage = 12;
+$rowsPerPage = 8;
 
 // by default we show first page
 $pageNum = 1;
 
 // if $_GET['page'] defined, use it as page number
-
+if (isset($_GET['page'])) {
+	$pageNum = $_GET['page'];
+}
 // counting the offset
 $offset = ($pageNum - 1) * $rowsPerPage;
 
@@ -22,7 +24,8 @@ if(isset($_GET['keyword'])) {
 	$query2   = "SELECT COUNT(id) AS numrows FROM orders WHERE Status LIKE '%$keyword%' ";
 }
 else {
-	$query = "SELECT * FROM orders ". "LIMIT $offset, $rowsPerPage";
+	$query = "SELECT * FROM orders ".
+	 "LIMIT $offset, $rowsPerPage";
     $query2   = "SELECT COUNT(id) AS numrows FROM orders";
 }
 
@@ -126,10 +129,9 @@ if (!$result || !$result2) {
 			<?php
 			}
 			?>
-
 		</tbody>
 	</table>
-	<div id="newtb"></div>
+	<div id="newtb" ></div>
 	<nav class="my-3">
 		<ul class="pagination justify-content-center">
 			<?php
