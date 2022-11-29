@@ -746,20 +746,21 @@
 
   <div class="home__blog">
     <div class="container">
+      <span>TINH LÂM </span>
       <h2>Chuyện của Đá</h2>
       <div class="row">
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="blog__item">
             <div class="image">
-              <img src="./img/1.png" alt="">
+              <img src="./img/1-1.png" alt="">
             </div>
             <div class="intro">
               <div class="date">
                 <img src="./img/calendar.png" alt="">
-                <span>Tháng Một 6, 2021</span>
+                <span> Tháng Bảy 13, 2021</span>
               </div>
               <div class="title">
-                <p>Không có gì ngoài điều kiện: Việt Hương lì xì Huỳnh Lập 117 triệu để lấy hên đầu năm 2021</p>
+                <p>Số Lượng Hạt Trong Một Vòng Đá Phong Thủy</p>
               </div>
               <div class="detail">
                 <a href="#">Xem thêm</a>
@@ -770,15 +771,15 @@
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="blog__item">
             <div class="image">
-              <img src="./img/1.png" alt="">
+              <img src="./img/1-2.png" alt="">
             </div>
             <div class="intro">
               <div class="date">
                 <img src="./img/calendar.png" alt="">
-                <span>Tháng Một 6, 2021</span>
+                <span>Tháng Bảy 5, 2021</span>
               </div>
               <div class="title">
-                <p>Không có gì ngoài điều kiện: Việt Hương lì xì Huỳnh Lập 117 triệu để lấy hên đầu năm 2021</p>
+                <p>Vì sao mỗi người cần có nhiều hơn 1 vòng đá phong thủy?</p>
               </div>
               <div class="detail">
                 <a href="#">Xem thêm</a>
@@ -789,15 +790,15 @@
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="blog__item">
             <div class="image">
-              <img src="./img/1.png" alt="">
+              <img src="./img/1-3.png" alt="">
             </div>
             <div class="intro">
               <div class="date">
                 <img src="./img/calendar.png" alt="">
-                <span>Tháng Một 6, 2021</span>
+                <span>Tháng Mười 9, 2020</span>
               </div>
               <div class="title">
-                <p>Không có gì ngoài điều kiện: Việt Hương lì xì Huỳnh Lập 117 triệu để lấy hên đầu năm 2021</p>
+                <p>Nghề Tay Trái – Huỳnh Lập: “Giữ vững đam mê nghệ thuật và kinh doanh”</p>
               </div>
               <div class="detail">
                 <a href="#">Xem thêm</a>
