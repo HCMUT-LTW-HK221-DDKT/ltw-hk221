@@ -11,7 +11,7 @@ git pull
 git checkout -b dev/<tên tính năng>
 ```
 
-## Git - Commit code (làm mỗi ngày):
+## Git - Commit code
 
 Việc commit bao gồm 2 thao tác sau:
 
