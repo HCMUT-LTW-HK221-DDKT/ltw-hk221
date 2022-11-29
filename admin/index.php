@@ -38,7 +38,7 @@ if (!isset($_SESSION['adminLog'])) {
 				<button class="btn btn-primary adminLogout" style="padding: 10px;">Đăng xuất</button>
 			</nav>
 
-			<h1>Trang quản trị WebASM2</h1>
+			<h1>Trang dành cho admin: theo dõi và chỉnh sửa các thông tin trên trang Web dễ dàng hơn :)</h1>
 		</div>
 	</div>
 

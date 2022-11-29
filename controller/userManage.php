@@ -125,8 +125,7 @@ if (!$result || !$result2) {
 				<th>Địa chỉ</th>
                 <!-- <th>Thời gian tạo</th> -->
                 <th>Trạng thái</th>
-				<th>Reset Password</th>
-				<th>Banned</th>
+				<th>Action</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -143,11 +142,9 @@ if (!$result || !$result2) {
                     <td><?php echo $row['address'] ?></td>
                     <td><?php echo $row['status'] ?></td>
 					<td>
-						<button class="resetPassword">
-							<i class='fas fa-edit'></i>
-						</button>
+						<button class="resetPassword btn btn-info">Reset</button>
+						<button class="delete btn btn-danger">Banned</button>
 					</td>
-					<td><button class="delete"><i class="fa fa-ban"></i></button></td>
 				</tr>
 
 			<?php

@@ -47,7 +47,7 @@ if (!isset($_SESSION['adminLog'])) {
 
 			<div class="container my-5">
 				<div id="r1" class="row text-center mb-3">
-					<h1>Products</h1>
+					<h1>PRODUCTS</h1>
 					<input type="text" id="search_keyword" class="form-input" placeholder="Nhập từ khóa để tìm kiếm" name="search_keyword">
 					<div class="keywordError">
         			</div>

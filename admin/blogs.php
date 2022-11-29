@@ -56,8 +56,8 @@ if (!isset($_SESSION['adminLog'])) {
                         <label for="url">URL:</label>
                         <input type="text" name="url" id="url" class="form-control">
                     </div>
-                    <button type="button" class="btn btn-default" name="add" id ="add">Add data</button>
-                    <button type="button" class="btn btn-default" name="del" id ="del">Delete data</button>
+                    <button type="button" class="btn btn-success" name="add" id ="add">Add data</button>
+                    <button type="button" class="btn btn-danger" name="del" id ="del">Delete data</button>
                 </form>
                 <div id = 'response'></div>
                 <div id = "show"></div>

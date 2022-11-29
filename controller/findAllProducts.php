@@ -106,8 +106,7 @@ if (!$result || !$result2) {
 				<th>Description</th>
 				<th>Price</th>
 				<th>Image</th>
-				<th>Update</th>
-				<th>Delete</th>
+				<th>Action</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -127,11 +126,10 @@ if (!$result || !$result2) {
 						</div>
 					</td>
 					<td>
-						<button class="update" data-bs-toggle="modal" data-bs-target="#updateProduct" data-id="<?php echo $row['id']; ?>" data-name="<?php echo $row['name'] ;?>" data-description="<?php echo $row['description']; ?>" data-price="<?php echo $row['price']; ?>" data-image="../uploads/<?php echo $row['imgUrl']; ?>">
-							<i class='fas fa-edit'></i>
-						</button>
+						<button class="btn btn-info" id="update" data-bs-toggle="modal" data-bs-target="#updateProduct" data-id="<?php echo $row['id']; ?>" data-name="<?php echo $row['name'] ;?>" data-description="<?php echo $row['description']; ?>" data-price="<?php echo $row['price']; ?>" data-image="../uploads/<?php echo $row['imgUrl']; ?>">
+						Update</button>
+						<button class="btn btn-warning" id="delete" >Delete</button>
 					</td>
-					<td><button class="delete"><i class='fas fa-trash'></i></button></td>
 				</tr>
 
 			<?php
