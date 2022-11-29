@@ -34,16 +34,13 @@ if(isset($_GET['getContactInfo'])) {
 					<td>
                     <div class="d-flex">
                     <input type="text" id="update_email" class="form-input" placeholder="Nhập email mới" name="update_email">
-						<button class="updateEmail btn btn-warning">
-                            <i class="fa fa-envelope"></i>
-						</button>
+						<button class="updateEmail btn btn-success">Update</button>
                     </div>
-                        
 					</td>
 					<td>
                     <div class="d-flex">
                         <input type="text" id="update_phone" class="form-input" placeholder="Nhập sđt mới" name="update_phone">
-                        <button class="updatePhone btn btn-warning"><i class="fa fa-phone"></i></button>
+                        <button class="updatePhone btn btn-success">Update</button>
                         </div>
                     </td>
 				</tr>
@@ -90,8 +87,8 @@ if(isset($_GET['getShowrooms'])) {
 					<td><?php echo $stt++; ?></td>
 					<td><?php echo $row['address'] ?></td>
 					<td>
-                    <button class="updateShowroom btn btn-warning" data-bs-toggle="modal" data-bs-target="#updateShowroomModal">
-                            <i class='fas fa-edit'></i>
+                    <button class="updateShowroom btn btn-success" data-bs-toggle="modal" data-bs-target="#updateShowroomModal">
+                            Update
 						</button>
                         
 					</td>
@@ -112,8 +109,7 @@ if(isset($_GET['getShowrooms'])) {
 			<tr>
 				<th>STT</th>
 				<th>Địa chỉ</th>
-                <th>Cập nhật</th>
-				<th>Xóa</th>
+                <th>Action</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -125,16 +121,11 @@ if(isset($_GET['getShowrooms'])) {
 					<td><?php echo $stt++; ?></td>
 					<td><?php echo $row['address'] ?></td>
 					<td>
-                    <button class="updateShowroom btn btn-warning" data-bs-toggle="modal" data-bs-target="#updateShowroomModal">
-                            <i class='fas fa-edit'></i>
-						</button>
-                        
-					</td>
-					<td>
-                        <button class="deleteShowroom btn btn-warning"><i class='fas fa-trash'></i></button>
+                    <button class="updateShowroom btn btn-success" data-bs-toggle="modal" data-bs-target="#updateShowroomModal">
+					Update</button>
+                    <button class="deleteShowroom btn btn-danger">Delete</button>
                     </td>
 				</tr>
-
 			<?php
 			}
 			?>

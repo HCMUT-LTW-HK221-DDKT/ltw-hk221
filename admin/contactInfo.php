@@ -95,14 +95,13 @@ if (!isset($_SESSION['adminLog'])) {
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="updateShowroomModalLabel">Cập nhật cửa hàng</h5>
+					<h5 class="modal-title" id="updateShowroomModalLabel">UPDATE ĐỊA CHỈ</h5>
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
 					<div class="d-flex">
 						<input type="text" id="updateShowroomInput" class="form-input" placeholder="Nhập địa chỉ mới" name="updateShowroomInput">
-						<button class="btn btn-success" id="updateShowroomBtn">Cập nhật</button>
-						<!-- <a class="btn btn-success" href="products.php?search=ưu">Tìm</a> -->
+						<button class="btn btn-success" id="updateShowroomBtn">UPDATE</button>
 					</div>
 					<div class="updateInputError text-danger">
 					</div>
