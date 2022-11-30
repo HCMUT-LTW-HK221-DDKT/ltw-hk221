@@ -11,7 +11,7 @@
         $url = $row['url'];
 ?>
 
-    <div class="col-lg-4 col-md-6 col-sm-6">
+    <div class="col-lg-4 col-md-4 col-sm-4">
         <div class="blog__item">
             <a
                 href="#">
