@@ -8,12 +8,20 @@
                 <img src="./img/footer-logo.png" alt="logo">
               </a>
             </div>
+            <span style="color: #bdbdbd; line-height: 14px; font-size: 13px;">©&nbsp;2021 Bản quyền thuộc Công Ty TNHH Phong Thủy Tinh Lâm
+              Giấy chứng nhận đăng ký doanh nghiệp: 0316645318
+              Do Sở Kế Hoạch và Đầu Tư Thành Phố Hồ Chí Minh – Cấp ngày 17/02/2020
+              Địa chỉ: 280 E10 Lương Định Của, P. An Phú, Q. 2, TP. Hồ Chí Minh.<br>
+              ĐT: 028 77799917<br>
+            </span>
             <?php   
               require_once "../controller/database.php";     
               $query = "SELECT * FROM showrooms";
               $result = mysqli_query($conn, $query) or die('Error, query failed');
+              $count =1;
               while ($row = mysqli_fetch_assoc($result)) {
-                echo "<p><i class='fa fa-map-marker-alt'></i> ". $row['address'] . "</p>";
+                echo "<p><i class='fa fa-map-marker-alt'></i>Showroom ".$count.": ". $row['address'] . "</p>";
+                $count++;
               }
 
               $query = "SELECT * FROM contacts";

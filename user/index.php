@@ -138,12 +138,7 @@
   <div class="home__social">
     <div class="container">
       <div class="social__detail">
-        <a target="_blank" class="facebook" href="https://www.facebook.com/trangsucphongthuytinhlam"><i
-            class="fab fa-facebook-f"></i></a>
-        <a target="_blank" class="youtube" href="https://www.youtube.com/channel/UC8vQFLQ6RUSh8_G0Gv8lsGg"><i
-            class="fab fa-youtube"></i></a>
-        <a target="_blank" class="instagram" href="https://www.instagram.com/tinhlamvongdaphongthuy/"><i
-            class="fab fa-instagram"></i></a>
+        <p></p>
       </div>
     </div>
   </div>
