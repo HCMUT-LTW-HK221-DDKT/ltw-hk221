@@ -85,7 +85,7 @@ CREATE TABLE `orders` (
 INSERT INTO `orders` (`id`, `created_at`, `total_price`, `username`, `Status`) VALUES
 (1, '2022-12-01 11:56:30', 1968000, 'kieuhoang', 'New Order'),
 (2, '2022-12-01 13:56:30', 1860000, 'trungtran93', 'New Order'),
-(3, '2022-12-01 15:56:20', 1186000, 'duong', 'Preparing'),
+(3, '2022-12-01 15:56:20', 1186000, 'duong', 'Prepared'),
 (4, '2022-12-01 17:56:10', 3750000, 'duytran', 'Done');
 
 -- --------------------------------------------------------
@@ -193,8 +193,8 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`username`, `fullname`, `email`, `phone`, `address`, `password`, `createtime`, `imgUrl`, `status`) VALUES
 ('kieuhoang', 'Linh Kieu', 'linhkieukute@gmail.com', '0901491633', 'Bảo Lộc', 'kieuverykute', '2022-12-01 14:55:29', 'kieu.jpg', 'active'),
 ('trungtran93', 'Tran Viet Trung', 'trungtran93@gmail.com', '0396727532', 'Bình Phước', 'viettrung', '2022-12-01 10:16:03', 'defaultavatar.png', 'banned'),
-('duytran', 'Duy', 'duytran@gmail.com', '0901491234', 'Đà Lạt', 'duy123', '2022-12-01 19:53:22', 'defaultavatar.png', 'banned'),
-('duong', 'Duong', 'duong@gmail.com', '0901456789', 'Hà Nội', 'duong1234', '2022-12-01 19:54:35', 'defaultavatar.png', 'banned');
+('duytran', 'Duy', 'duytran@gmail.com', '0901491234', 'Đà Lạt', 'duy123', '2022-12-01 19:53:22', 'defaultavatar.png', 'active'),
+('duong', 'Duong', 'duong@gmail.com', '0901456789', 'Hà Nội', 'duong1234', '2022-12-01 19:54:35', 'defaultavatar.png', 'active');
 
 --
 -- Table structure for table `blog`
