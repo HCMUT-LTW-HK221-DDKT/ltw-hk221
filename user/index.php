@@ -146,16 +146,24 @@
   <div class="product__carousel">
     <div class="container">
       <div class="owl-carousel owl-theme">
-        <div class="item"><img src="./img/products/-6034image19.jpeg" alt="products"></div>
-        <div class="item"><img src="./img/products/-6034image30.jpeg" alt="products"></div>
-        <div class="item"><img src="./img/products/-6034image35.jpeg" alt="products"></div>
-        <div class="item"><img src="./img/products/-6034image39.jpeg" alt="products"></div>
-        <div class="item"><img src="./img/products/-6034image45.jpeg" alt="products"></div>
-        <div class="item"><img src="./img/products/-6034image47.jpeg" alt="products"></div>
-        <div class="item"><img src="./img/products/-6034image52.jpeg" alt="products"></div>
-        <div class="item"><img src="./img/products/-6034image56.jpeg" alt="products"></div>
-        <div class="item"><img src="./img/products/-6034image60.jpeg" alt="products"></div>
-        <div class="item"><img src="./img/products/-6034image61.jpeg" alt="products"></div>
+        <div class="item"><img src="./img/products/GARNET-LUU-DO-6ly.png" alt="products"></div>
+        <div class="item"><img src="./img/products/GARNET-LUU-DO-8ly.png" alt="products"></div>
+        <div class="item"><img src="./img/products/GARNET-LUU-DO-10ly.png" alt="products"></div>
+        <div class="item"><img src="./img/products/GO-HOA-THACH.png" alt="products"></div>
+        <div class="item"><img src="./img/products/GO-HOA-THACH-8ly.png" alt="products"></div>
+        <div class="item"><img src="./img/products/GO-HOA-THACH-10ly.png" alt="products"></div>
+        <div class="item"><img src="./img/products/HP-CHERRY-MAT-DOI.png" alt="products"></div>
+        <div class="item"><img src="./img/products/HP-CHERRY-NGOC-BOI.png" alt="products"></div>
+        <div class="item"><img src="./img/products/HP-DO-TRON.png" alt="products"></div>
+        <div class="item"><img src="./img/products/HP-MAT-ONG-SEN.png" alt="products"></div>
+        <div class="item"><img src="./img/products/HP-VANG-DONG-TIEN.png" alt="products"></div>
+        <div class="item"><img src="./img/products/HP-VANG-LUC-LAC.png" alt="products"></div>
+        <div class="item"><img src="./img/products/MA-NAO-DEN-6ly.png" alt="products"></div>
+        <div class="item"><img src="./img/products/MA-NAO-DEN-8ly.png" alt="products"></div>
+        <div class="item"><img src="./img/products/MA-NAO-DEN-10ly.png" alt="products"></div>
+        <div class="item"><img src="./img/products/THACH-ANH-DAU-TAY-XANH.png" alt="products"></div>
+        <div class="item"><img src="./img/products/THACH-ANH-DAU-TAY-XANH-8ly.png" alt="products"></div>
+        <div class="item"><img src="./img/products/THACH-ANH-DAU-TAY-XANH-10ly.png" alt="products"></div>        
       </div>
     </div>
   </div>
