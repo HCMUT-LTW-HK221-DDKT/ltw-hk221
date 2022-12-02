@@ -191,7 +191,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`username`, `fullname`, `email`, `phone`, `address`, `password`, `createtime`, `imgUrl`, `status`) VALUES
-('kieuhoang', 'Linh Kieu', 'linhkieukute@gmail.com', '0901491633', 'Bảo Lộc', 'kieuverykute', '2022-12-01 14:55:29', 'kieu.jpg', 'active'),
+('kieuhoang', 'Linh Kieu', 'kieuhoang@gmail.com', '0901491633', 'Bảo Lộc', 'kieu123', '2022-12-01 14:55:29', 'defaultavatar.png', 'active'),
 ('trungtran93', 'Tran Viet Trung', 'trungtran93@gmail.com', '0396727532', 'Bình Phước', 'viettrung', '2022-12-01 10:16:03', 'defaultavatar.png', 'banned'),
 ('duytran', 'Duy', 'duytran@gmail.com', '0901491234', 'Đà Lạt', 'duy123', '2022-12-01 19:53:22', 'defaultavatar.png', 'active'),
 ('duong', 'Duong', 'duong@gmail.com', '0901456789', 'Hà Nội', 'duong1234', '2022-12-01 19:54:35', 'defaultavatar.png', 'active');
