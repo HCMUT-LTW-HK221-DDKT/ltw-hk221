@@ -233,7 +233,7 @@
           <div class="row">
             <div class=" col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/GARNET-LUU-DO-6ly.png" alt="item">
                 <div class="tag">
                   New
                 </div>
@@ -246,13 +246,13 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng tay phối charm âm dương 6li (limited edition)</h5>
                 </div>
               </div>
             </div>
             <div class=" col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/GARNET-LUU-DO-8ly.png" alt="item">
                 <div class="tag">
                   New
                 </div>
@@ -265,13 +265,13 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng tay phối charm âm dương 8li (limited edition)</h5>
                 </div>
               </div>
             </div>
             <div class=" col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/GARNET-LUU-DO-10ly.png" alt="item">
                 <div class="tag">
                   New
                 </div>
@@ -284,15 +284,15 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng tay phối charm âm dương 10li (limited edition)</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/GO-HOA-THACH.png" alt="item">
                 <div class="tag">
-                  New
+                  PRE - ORDER
                 </div>
                 <div class="detail_icon">
                   <a href="#">
@@ -303,15 +303,15 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng Tay Phối Charm Âm Dương 6Li (Limited Edition)</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/GO-HOA-THACH-8ly.png" alt="item">
                 <div class="tag">
-                  New
+                  PRE - ORDER
                 </div>
                 <div class="detail_icon">
                   <a href="#">
@@ -322,13 +322,13 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng Tay Phối Charm Âm Dương 8Li (Limited Edition)</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/GO-HOA-THACH-10ly.png" alt="item">
                 <div class="tag">
                   New
                 </div>
@@ -341,13 +341,13 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng Tay Phối Charm Âm Dương 10Li (Limited Edition)</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/HP-CHERRY-MAT-DOI.png" alt="item">
                 <div class="tag">
                   New
                 </div>
@@ -360,15 +360,15 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng Hổ Phách Đỏ Cherry</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/HP-CHERRY-NGOC-BOI.png" alt="item">
                 <div class="tag">
-                  New
+                  Pre - ORDER
                 </div>
                 <div class="detail_icon">
                   <a href="#">
@@ -379,7 +379,7 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng Hổ Phách Đỏ Cherry</h5>
                 </div>
               </div>
             </div>
@@ -391,9 +391,9 @@
           <div class="row">
             <div class=" col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/HP-DO-TRON.png" alt="item">
                 <div class="tag">
-                  New
+                  Pre - ORDER
                 </div>
                 <div class="detail_icon">
                   <a href="#">
@@ -404,13 +404,13 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng hổ phách đỏ (huyết phách)</h5>
                 </div>
               </div>
             </div>
             <div class=" col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/HP-MAT-ONG-SEN.png" alt="item">
                 <div class="tag">
                   New
                 </div>
@@ -423,13 +423,13 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng hổ phách mật ong</h5>
                 </div>
               </div>
             </div>
             <div class=" col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/HP-VANG-DONG-TIEN.png" alt="item">
                 <div class="tag">
                   New
                 </div>
@@ -442,13 +442,13 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng hổ phách mật lạp</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/HP-VANG-LUC-LAC.png" alt="item">
                 <div class="tag">
                   New
                 </div>
@@ -461,15 +461,15 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng hổ phách mật lạp</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/MA-NAO-DEN-6ly.png" alt="item">
                 <div class="tag">
-                  New
+                  Pre - ORDER
                 </div>
                 <div class="detail_icon">
                   <a href="#">
@@ -480,13 +480,13 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng Tay Phối Charm Âm Dương 6Li (Limited Edition)</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/MA-NAO-DEN-8ly.png" alt="item">
                 <div class="tag">
                   New
                 </div>
@@ -499,13 +499,13 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng Tay Phối Charm Âm Dương 8Li (Limited Edition)</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/MA-NAO-DEN-10ly.png" alt="item">
                 <div class="tag">
                   New
                 </div>
@@ -518,15 +518,15 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng Tay Phối Charm Âm Dương 10Li (Limited Edition)</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/THACH-ANH-DAU-TAY-XANH.png" alt="item">
                 <div class="tag">
-                  New
+                  Pre - ORDER
                 </div>
                 <div class="detail_icon">
                   <a href="#">
@@ -537,7 +537,7 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng Tay Phối Charm Âm Dương 6Li (Limited Edition)</h5>
                 </div>
               </div>
             </div>
@@ -549,7 +549,7 @@
           <div class="row">
             <div class=" col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/GARNET-LUU-DO-6ly.png" alt="item">
                 <div class="tag">
                   New
                 </div>
@@ -562,15 +562,15 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng tay phối charm âm dương 6li (limited edition)</h5>
                 </div>
               </div>
             </div>
             <div class=" col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/GO-HOA-THACH.png" alt="item">
                 <div class="tag">
-                  New
+                  pre - ORDER
                 </div>
                 <div class="detail_icon">
                   <a href="#">
@@ -581,13 +581,13 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng Tay Phối Charm Âm Dương 6Li (Limited Edition)</h5>
                 </div>
               </div>
             </div>
             <div class=" col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/HP-CHERRY-MAT-DOI.png" alt="item">
                 <div class="tag">
                   New
                 </div>
@@ -600,15 +600,15 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng Hổ Phách Đỏ Cherry</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/HP-CHERRY-NGOC-BOI.png" alt="item">
                 <div class="tag">
-                  New
+                  Pre - ORDER
                 </div>
                 <div class="detail_icon">
                   <a href="#">
@@ -619,15 +619,15 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng Hổ Phách Đỏ Cherry</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/HP-DO-TRON.png" alt="item">
                 <div class="tag">
-                  New
+                  Pre - ORDER
                 </div>
                 <div class="detail_icon">
                   <a href="#">
@@ -638,13 +638,13 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng hổ phách đỏ (huyết phách)</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/HP-MAT-ONG-SEN.png" alt="item">
                 <div class="tag">
                   New
                 </div>
@@ -657,13 +657,13 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng hổ phách mật ong</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/HP-VANG-DONG-TIEN.png" alt="item">
                 <div class="tag">
                   New
                 </div>
@@ -676,15 +676,15 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng hổ phách mật lạp</h5>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 py-2">
               <div class="card">
-                <img src="./img/products/-6034image19.jpeg" alt="item">
+                <img src="./img/products/MA-NAO-DEN-6ly.png" alt="item">
                 <div class="tag">
-                  New
+                  Pre - ORDER
                 </div>
                 <div class="detail_icon">
                   <a href="#">
@@ -695,7 +695,7 @@
                   <a href="#">Xem chi tiết</a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Vòng ưu linh ngũ sắc</h5>
+                  <h5 class="card-title">Vòng Tay Phối Charm Âm Dương 6Li (Limited Edition)</h5>
                 </div>
               </div>
             </div>
