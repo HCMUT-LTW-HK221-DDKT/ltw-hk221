@@ -749,7 +749,7 @@
 
   <div class="home__blog">
     <div class="container">
-      <span>TINH LÂM </span>
+      <h2>TINH LÂM </h2>
       <h2>Chuyện của Đá</h2>
       <div class="row">
         <div class="col-12 col-sm-6 col-lg-4">
