@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $("#sendMessage").submit(function (event) {
+    $("form").submit(function (event) {
         event.preventDefault();
 
         let name = document.querySelector(".send_name").value;

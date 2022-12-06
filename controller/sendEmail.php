@@ -1,6 +1,7 @@
 <?php 
     require_once "./database.php";
     use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\SMTP;
     use PHPMailer\PHPMailer\Exception;
     require_once "../PHPMailer/src/PHPMailer.php";
     require_once "../PHPMailer/src/Exception.php";
@@ -30,8 +31,8 @@
                         $mail->isSMTP();                                      // Set mailer to use SMTP
                         $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
                         $mail->SMTPAuth = true;                               // Enable SMTP authentication
-                        $mail->Username = 'neverlost304@gmail.com';                 // SMTP username
-                        $mail->Password = 'thanhtuan@2020';                           // SMTP password
+                        $mail->Username = 'quocduy.nguyen6598@gmail.com';                 // SMTP username
+                        $mail->Password = 'Duy@06051998';                           // SMTP password
                         $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
                         $mail->Port = 465;                                    // TCP port to connect to
                     
@@ -76,15 +77,15 @@
                         $mail->isSMTP();                                      // Set mailer to use SMTP
                         $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
                         $mail->SMTPAuth = true;                               // Enable SMTP authentication
-                        $mail->Username = 'neverlost304@gmail.com';                 // SMTP username
-                        $mail->Password = 'groupLTW@2022';                           // SMTP password
+                        $mail->Username = 'quocduy.nguyen6598@gmail.com';                 // SMTP username
+                        $mail->Password = 'Duy@06051998';                           // SMTP password
                         $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
                         $mail->Port = 465;                                    // TCP port to connect to
                     
                         //Recipients
                         $mail->isHTML(true); 
-                        $mail->setFrom($email, $name);
-                        $mail->addAddress('tinhlamjw@gmail.com', 'admin');     // Add a recipient
+                        $mail->setFrom('tinhlamjw@gmail.com', 'admin');     // Add a recipient
+                        $mail->addAddress($email, $name);
    
                     
                         //Content
