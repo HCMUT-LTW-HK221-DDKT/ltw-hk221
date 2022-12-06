@@ -99,7 +99,7 @@ if (isset($_GET["getCart"])) {
 									$totalPrice += $subTotal;
 								?>
 									<tr id="<?php echo $row['id'] ?>">
-										<td style="width: 10rem"><img src="../uploads/<?php echo $row['imgUrl'] ?>" alt="item" style="width: 100%" /></td>
+										<td style="width: 10rem"><img src="../uploads/<?php echo $row['imgUrl'] ?>" alt="<?php echo $row['name'] ?>" style="width: 100%" /></td>
 										<td><?php echo $row['name'] ?></td>
 										<td>
 											<div class="d-flex justify-content-center">

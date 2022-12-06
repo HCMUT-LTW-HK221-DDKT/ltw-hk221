@@ -423,20 +423,16 @@ $(document).ready(function () {
 			if (href.includes("search=")) {
 				var keyword = window.location.search.split("=")[1].split("&")[0];
 				if (href.includes("sortType=")) {
-					// http://localhost:8081/user/products.php?search=uu&sortType=ASC&priceStart=1000&priceEnd=2000
 					var sortType = window.location.search.split("=")[2].split("&")[0];
 					href = hrefSplit[0] + "//" + hrefSplit[2] + "/" + hrefSplit[3] + "/products.php?search=" + keyword + "&sortType=" + sortType + "&priceStart=" + priceStart + "&priceEnd=" + priceEnd;
 				} else {
-					// http://localhost:8081/user/products.php?search=uu&priceStart=1000&priceEnd=2000
 					href = hrefSplit[0] + "//" + hrefSplit[2] + "/" + hrefSplit[3] + "/products.php?search=" + keyword + "&priceStart=" + priceStart + "&priceEnd=" + priceEnd;
 				}
 			} else {
 				if (href.includes("sortType=")) {
-					// http://localhost:8081/user/products.php?sortType=ASC&priceStart=1000&priceEnd=2000
 					var sortType = window.location.search.split("=")[1].split("&")[0];
 					href = hrefSplit[0] + "//" + hrefSplit[2] + "/" + hrefSplit[3] + "/products.php?sortType=" + sortType + "&priceStart=" + priceStart + "&priceEnd=" + priceEnd;
 				} else {
-					// http://localhost:8081/user/products.php?priceStart=1000&priceEnd=2000
 					href = hrefSplit[0] + "//" + hrefSplit[2] + "/" + hrefSplit[3] + "/products.php?priceStart=" + priceStart + "&priceEnd=" + priceEnd;
 				}
 			}

@@ -189,13 +189,13 @@ if (!$result) {
 				<div class="card">
 					<a href="product1.php?id=<?php echo $row['id']; ?>">
 						<div style="max-width: 25rem; max-height: 25rem; margin: 0 auto;">
-							<img src="../uploads/<?php echo $row['imgUrl']; ?>" alt="item" style="width: 100%; height: 100%;" />
+							<img src="../uploads/<?php echo $row['imgUrl']; ?>" alt="<?php echo $row['name']; ?>" style="width: 100%; height: 100%;" />
 						</div>
 					</a>
 					<div class="tag">New</div>
 					<div class="detail_icon">
 						<a href="#">
-							<img src="https://tinhlamjw.com/wp-content/themes/tinhlamjwt/img/icon/search.png" alt="" />
+							<img src="https://tinhlamjw.com/wp-content/themes/tinhlamjwt/img/icon/search.png" alt="TinhLamSearch" />
 						</a>
 					</div>
 					<div class="detail__text">

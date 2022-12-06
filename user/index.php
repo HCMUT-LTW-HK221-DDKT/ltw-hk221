@@ -8,7 +8,9 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WebASM2</title>
+  <meta name="description" content="Male_Fashion Template">
+  <meta name="keywords" content="Male_Fashion, unica, creative, html">
+  <title>Tinh Lâm Trang Sức Phong Thủy - Vòng đá hợp Mệnh</title>
 
   <!-- import bootstrap  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"

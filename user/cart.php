@@ -11,7 +11,9 @@ require_once '../controller/user.php';
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Cart page</title>
+	<meta name="description" content="Male_Fashion Template">
+  	<meta name="keywords" content="Male_Fashion, unica, creative, html">
+  	<title>Cart - Tinh Lâm JW</title>
 
 	<!-- import bootstrap  -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
