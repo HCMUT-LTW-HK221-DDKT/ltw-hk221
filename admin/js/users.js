@@ -36,7 +36,7 @@ function onClickSearchBtn() {
     }
 }
 
-$(document).on("click", ".delete", function () {
+$(document).on("click", ".ban", function () {
 
     var status = $(this).parents("tr").children()[6].innerHTML;
     if(status == "banned") {

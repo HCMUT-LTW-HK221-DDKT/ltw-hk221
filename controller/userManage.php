@@ -143,7 +143,7 @@ if (!$result || !$result2) {
                     <td><?php echo $row['status'] ?></td>
 					<td>
 						<button class="resetPassword btn btn-info">Reset</button>
-						<button class="delete btn btn-danger">Banned</button>
+						<button class="ban btn btn-danger">Banned</button>
 					</td>
 				</tr>
 
@@ -174,9 +174,9 @@ if(isset($_POST['banned'])) {
     $result3 = mysqli_query($conn, $query3) or die('Error, query failed');
 
     if (!$result3) {
-		echo json_encode(array("statusCode" => 400, "info" => "Delete product failed!"));
+		echo json_encode(array("statusCode" => 400, "info" => "Banned user failed!"));
 	} else {
-		echo json_encode(array("statusCode" => 200, "info" => "Delete product successfully!"));
+		echo json_encode(array("statusCode" => 200, "info" => "Banned user successfully!"));
 	}
 }
 

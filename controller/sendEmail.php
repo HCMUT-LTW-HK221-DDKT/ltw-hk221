@@ -77,14 +77,14 @@
                         $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
                         $mail->SMTPAuth = true;                               // Enable SMTP authentication
                         $mail->Username = 'neverlost304@gmail.com';                 // SMTP username
-                        $mail->Password = 'thanhtuan@2020';                           // SMTP password
+                        $mail->Password = 'groupLTW@2022';                           // SMTP password
                         $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
                         $mail->Port = 465;                                    // TCP port to connect to
                     
                         //Recipients
                         $mail->isHTML(true); 
                         $mail->setFrom($email, $name);
-                        $mail->addAddress('tranttuan96@gmail.com', 'Tuan');     // Add a recipient
+                        $mail->addAddress('tinhlamjw@gmail.com', 'admin');     // Add a recipient
    
                     
                         //Content
