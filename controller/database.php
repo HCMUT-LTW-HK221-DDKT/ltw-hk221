@@ -9,6 +9,6 @@ $conn = mysqli_connect($hostname, $username, $password)
 // echo "Connected to MySQL<br>";
 
 //select a database to work with
-$selected = mysqli_select_db($conn, "btl")
+$selected = mysqli_select_db($conn, "data")
 	or die("Could not select data");
 ?>
