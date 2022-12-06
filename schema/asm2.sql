@@ -211,12 +211,12 @@ CREATE TABLE `blog` (
 -- Dumping data for table `blog`
 --
 INSERT INTO `blog` (`id`,`date`,`description`,`img`, `url`) VALUES
-(1,'Tháng Một 6, 2021','Không có gì ngoài điều kiện: Việt Hương lì xì Huỳnh Lập 117 triệu để lấy hên đầu năm 2021','hinh1.jpeg',NULL),
-(2,'Tháng Mười Một 21, 2020','TINH LÂM JW – ĐỒNG HÀNH CÙNG NGHỆ SĨ VIỆT','hinh2.jpg',NULL),
-(3,'Tháng Mười 9, 2020','Nghề Tay Trái – Huỳnh Lập: \"Giữ vững đam mê nghệ thuật và kinh doanh\"','hinh3.jpg',NULL),
-(4,'Tháng Chín 19, 2020','Đại Nghĩa, Thu Trang nhiệt tình ủng hộ showroom đá phong thủy Tinh Lâm của Huỳnh Lập','hinh4.jpg',NULL),
-(5,'Tháng Chín 19, 2020','Đồng nghiệp ủng hộ Huỳnh Lập bán đá phong thủy','3.jpg',NULL),
-(6,'Tháng Chín 19, 2020','Huỳnh Lập lên chức ông chủ, dàn sao Vbiz khủng nườm nượp đến chúc mừng','5.jpg',NULL);
+(1,'Tháng Một 6, 2021','Không có gì ngoài điều kiện: Việt Hương lì xì Huỳnh Lập 117 triệu để lấy hên đầu năm 2021','hinh1.jpeg','https://tinhlamjw.com/khong-co-gi-ngoai-dieu-kien-viet-huong-li-xi-huynh-lap-117-trieu-de-lay-hen-dau-nam-2021/'),
+(2,'Tháng Mười Một 21, 2020','TINH LÂM JW – ĐỒNG HÀNH CÙNG NGHỆ SĨ VIỆT','hinh2.jpg','https://tinhlamjw.com/tinh-lam-jw-dong-hanh-cung-nghe-si-viet/'),
+(3,'Tháng Mười 9, 2020','Nghề Tay Trái – Huỳnh Lập: \"Giữ vững đam mê nghệ thuật và kinh doanh\"','hinh3.jpg','https://tinhlamjw.com/https-www-yan-vn-huynh-lap-trong-chuong-trinh-nghe-tay-trai-244498-html/'),
+(4,'Tháng Chín 19, 2020','Đại Nghĩa, Thu Trang nhiệt tình ủng hộ showroom đá phong thủy Tinh Lâm của Huỳnh Lập','hinh4.jpg','https://tinhlamjw.com/dai-nghia-thu-trang-nhiet-tinh-ung-ho-showroom-da-phong-thuy-tinh-lam-cua-huynh-lap/'),
+(5,'Tháng Chín 19, 2020','Đồng nghiệp ủng hộ Huỳnh Lập bán đá phong thủy','3.jpg','https://tinhlamjw.com/dong-nghiep-ung-ho-huynh-lap-ban-da-phong-thuy/'),
+(6,'Tháng Chín 19, 2020','Huỳnh Lập lên chức ông chủ, dàn sao Vbiz khủng nườm nượp đến chúc mừng','5.jpg','https://tinhlamjw.com/huynh-lap-len-chuc-ong-chu-dan-sao-vbiz-khung-nuom-nuop-den-chuc-mung/');
 
 --
 -- Indexes for dumped tables
