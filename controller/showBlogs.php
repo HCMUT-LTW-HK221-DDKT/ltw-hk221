@@ -1,5 +1,5 @@
 <?php
-    $conn = new mysqli('localhost', 'root', '', 'asm2');
+    $conn = new mysqli('localhost', 'root', '', 'data');
     $sql = "select * from blog";
     $result = $conn->query($sql);
     if ($result->num_rows > 0){

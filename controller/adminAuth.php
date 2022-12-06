@@ -2,7 +2,7 @@
 session_start();
 // session_destroy();
 $hn = 'localhost';
-$db = 'asm2';
+$db = 'data';
 $un = 'root';
 $pw = '';
 // echo "run 1234";

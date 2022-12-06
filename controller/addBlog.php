@@ -1,5 +1,5 @@
 <?php
-    $conn = new mysqli('localhost', 'root', '', 'asm2');
+    $conn = new mysqli('localhost', 'root', '', 'data');
     if (isset($_POST['desc'])){
         $date = mysqli_real_escape_string($conn,$_POST['date']);
         $desc = mysqli_real_escape_string($conn,$_POST['desc']);
