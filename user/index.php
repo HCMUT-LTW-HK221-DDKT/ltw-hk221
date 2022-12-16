@@ -1,4 +1,5 @@
-<?php require_once '../controller/user.php'; 
+<?php 
+require_once '../controller/user.php'; 
 ?>
 
 <!DOCTYPE html>

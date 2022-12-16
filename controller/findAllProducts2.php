@@ -2,7 +2,7 @@
 require_once "./database.php";
 
 // how many rows to show per page
-$rowsPerPage = 12;
+$rowsPerPage = 6;
 
 // by default we show first page
 $pageNum = 1;
